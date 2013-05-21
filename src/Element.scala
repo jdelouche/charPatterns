@@ -12,18 +12,30 @@ abstract class Element {
 
   val contents: Array[String]
   val height = contents.length
-  val width = if (height == 0) 0 else contents(0).length
+  val width = if (height == 0) {
+    0
+  } else {
+    contents.map{ _.length }.max
+  }
 
   override def toString = {
     contents mkString "\n"
   }
 
   def above(that: Element): Element = {
-    create(this.contents ++ that.contents)
+    (this, that) match {
+      case (_, Element.nothing) => this
+      case (Element.nothing, _) => that
+      case (_, _) => create(this.contents ++ that.contents)
+    }
   }
 
   def below(that: Element): Element = {
-    create(that.contents ++ this.contents)
+    (this, that) match {
+      case (_, Element.nothing) => this
+      case (Element.nothing, _) => that
+      case (_, _) => create(that.contents ++ this.contents)
+    }
   }
 
   def besideRight(that: Element): Element = {
@@ -183,8 +195,32 @@ abstract class Element {
     e
   }
 
-  def M():Element = {
+  def unary_~(): Element = {
     this.mirrorH()
+  }
+
+  def mirrorV(): Element = {
+    var e: Element = nothing
+    this.contents.foreach {
+      line: String =>
+        var mirroredLine: Element = nothing
+        line.foreach {
+          c: Char =>
+            val s: String = c.toString
+            val x = create(s)
+            x match {
+              case Characters.upRight => mirroredLine <<= (Characters.downRight)
+              case Characters.downRight => mirroredLine <<= (Characters.upRight)
+              case _ => mirroredLine <<= x
+            }
+        }
+        e = mirroredLine v e
+    }
+    e
+  }
+
+  def unary_!(): Element = {
+    this.mirrorV()
   }
 
 }

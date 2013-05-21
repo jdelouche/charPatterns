@@ -10,15 +10,15 @@ class Rabbit {
   import Element._
 
   def rabbit = {
-    var e = nothing ^
-      create("^   ^ ") ^
-      create("||  ||") ^
-      create("|---|| -----") ^
-      create("|    |/     \\") ^
-      create("|° ° |       |") ^
-      create("| -  |       |") ^
-      create("| O  |       |O") ^
-      create("\\----/oo---oo")
+    var e =
+      create("^   ^").padRightWith(15) ^
+      create("||  ||").padRightWith(15) ^
+      create("|---|| -----").padRightWith(15) ^
+      create("|    |/     \\").padRightWith(15) ^
+      create("|° ° |       |").padRightWith(15) ^
+      create("| -  |       |").padRightWith(15) ^
+      create("| O  |       |O").padRightWith(15) ^
+      create("\\----/oo---oo").padRightWith(15)
     e
   }
 }
