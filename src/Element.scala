@@ -1,3 +1,5 @@
+import scala.Array
+
 /**
  * Created with IntelliJ IDEA.
  * User: jdelouche
@@ -15,11 +17,26 @@ abstract class Element {
   val width = if (height == 0) {
     0
   } else {
-    contents.map{ _.length }.max
+    contents.map {
+      _.length
+    }.max
   }
 
   override def toString = {
     contents mkString "\n"
+  }
+
+  def split(): Array[Element] = {
+    contents.map(create(_))
+  }
+
+  def concatenate(newContents: Array[Element]): Element = {
+    var newThis: Element = nothing
+    newContents.foreach {
+      x: Element =>
+        newThis = x below newThis
+    }
+    newThis
   }
 
   def above(that: Element): Element = {
@@ -138,12 +155,12 @@ abstract class Element {
   }
 
   def padRightWith(w: Int) = {
-    if (w <= width) {
-      this
-    } else {
-      val right = create(' ', w - width, height)
-      this besideRight right
-    }
+
+    val newContents = for {
+      x <- split()
+    } yield x besideRight create(' ', w - x.width, 1)
+    concatenate(newContents)
+
   }
 
   def padBottomWith(h: Int) = {
@@ -156,13 +173,14 @@ abstract class Element {
   }
 
   def padLeftWith(w: Int) = {
-    if (w <= width) {
-      this
-    } else {
-      val left = create(' ', w - width, height)
-      left besideRight this
-    }
+
+    val newContents = for {
+      x <- split()
+    } yield x besideLeft create(' ', w - x.width, 1)
+    concatenate(newContents)
+
   }
+
 
   def padTopWith(h: Int) = {
     if (h <= height) {
