@@ -23,8 +23,8 @@ object Test extends App {
   val dl = new Diagonal().diagonal(4, Down, Left)
   val ul = new Diagonal().diagonal(4, Up, Left)
   val dr = new Diagonal().diagonal(4, Down, Right)
-  println(((ur >> dr) xh 8))
-  println(((ur >> dr) xh 8).mirrorH())
+  val zigzag = ((ur >> dr) xh 8) ^ ((ur >> dr) xh 8).mirrorH()
+  println(zigzag)
 
   println(spir ^ ~spir)
 
@@ -34,5 +34,18 @@ object Test extends App {
   val line = rabbit >> rabbit.mirrorV()
   val enil = ~line
   println((rabbit >> ~rabbit) ^ !(rabbit >> ~rabbit))
+  println(squa)
+  println(squa.mirror45())
+  val fourRabbits = (rabbit.mirror45 B (rabbit ^ ~rabbit)) >> ((rabbit ^ ~rabbit) B rabbit.mirror45) >> (!rabbit.mirror45 B (rabbit ^ ~rabbit))
+  println(fourRabbits)
+  println(spir.mirror45())
+  val zigzagVertical = zigzag.mirror45()
+  println(zigzag.mirror45())
+  println(zigzagVertical.mirror45() v
+    (zigzagVertical >>
+      fourRabbits >>
+      fourRabbits >>
+      (zigzagVertical.padLeftWith(zigzagVertical.mirror45.width - zigzagVertical.width - 2 * fourRabbits.width))) v
+    zigzagVertical.mirror45())
 
 }
