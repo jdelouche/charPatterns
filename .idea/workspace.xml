@@ -11,7 +11,7 @@
     <file path="/ArrayElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368707353315" ignored="false" />
     <file path="/LineElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368708186412" ignored="false" />
     <file path="/UniformElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368709634519" ignored="false" />
-    <file path="/a.dummy" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369511324592" ignored="false" />
+    <file path="/a.dummy" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369513745218" ignored="false" />
     <file path="/Spiral.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368978400822" ignored="false" />
     <file path="/Square.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368996625954" ignored="false" />
     <file path="/Characters.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369495749696" ignored="false" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="Element.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Element.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="9" selection-start="4261" selection-end="4266" vertical-scroll-proportion="-0.80657643">
+            <state line="194" column="10" selection-start="4296" selection-end="4307" vertical-scroll-proportion="0.5531915">
               <folding />
             </state>
           </provider>
@@ -506,7 +506,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="22" width="1630" height="1010" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -521,7 +521,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15593435" sideWeight="0.6123595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15593435" sideWeight="0.6123595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38764045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -697,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Element.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="9" selection-start="4261" selection-end="4266" vertical-scroll-proportion="-0.80657643">
+        <state line="194" column="10" selection-start="4296" selection-end="4307" vertical-scroll-proportion="0.5531915">
           <folding />
         </state>
       </provider>

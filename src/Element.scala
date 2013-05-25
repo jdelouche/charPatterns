@@ -192,7 +192,7 @@ abstract class Element {
   }
 
 
-  def rotateClock(x: Element, m: Element): Element = {
+  def rotateClockwise45(x: Element, m: Element): Element = {
     x match {
       case Characters.horizontal => m v (Characters.space >> Characters.vertical)
       case Characters.vertical => m v (Characters.horizontal xh 2)
@@ -237,7 +237,7 @@ abstract class Element {
 
   def horizontal(line: String, e : Element) = join(upsideDown,aboveIt)(line,e)
   def vertical(line: String, e : Element) = join(leftToRight,belowIt)(line,e)
-  def at90(line: String, e : Element) = join(rotateClock,besideIt)(line,e)
+  def at90(line: String, e : Element) = join(rotateClockwise45,besideIt)(line,e)
 
   def mirrorH() = mirror(horizontal)
   def mirrorV() = mirror(vertical)
