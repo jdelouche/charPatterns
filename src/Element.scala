@@ -34,12 +34,7 @@ abstract class Element {
   }
 
   def concatenate(newContents: List[Element]): Element = {
-    var newThis: Element = nothing
-    newContents.foreach {
-      x: Element =>
-        newThis = x below newThis
-    }
-    newThis
+    newContents.reduceLeft(_ above _)
   }
 
   def verticalPut(where: (List[String], List[String]) => List[String])(that: Element): Element = {
@@ -60,9 +55,22 @@ abstract class Element {
     x ++ y
   }
 
-  def above(that: Element): Element = verticalPut(onTop)(that)
+  def above(that: Element): Element = {
+    (this, that) match {
+      case (_, Element.nothing) => this
+      case (Element.nothing, _) => that
+      case (_, _) => verticalPut(onTop)(that)
+    }
 
-  def below(that: Element): Element = verticalPut(onBottom)(that)
+  }
+
+  def below(that: Element): Element = {
+    (this, that) match {
+      case (_, Element.nothing) => this
+      case (Element.nothing, _) => that
+      case (_, _) => verticalPut(onBottom)(that)
+    }
+  }
 
   def horizontalPut(where: (List[String], List[String]) => List[(String, String)])(that: Element): Element = {
     create(for ((line1, line2) <- where(that.contents, this.contents)) yield line1 + line2)
@@ -76,9 +84,22 @@ abstract class Element {
     y zip x
   }
 
-  def besideLeft(that: Element): Element = horizontalPut(onLeft)(that)
+  def besideLeft(that: Element): Element = {
+    (this, that) match {
+      case (_, Element.nothing) => this
+      case (Element.nothing, _) => that
+      case (_, _) => horizontalPut(onLeft)(that)
+    }
+  }
 
-  def besideRight(that: Element): Element = horizontalPut(onRight)(that)
+
+  def besideRight(that: Element): Element = {
+    (this, that) match {
+      case (_, Element.nothing) => this
+      case (Element.nothing, _) => that
+      case (_, _) => horizontalPut(onRight)(that)
+    }
+  }
 
   def vertical(e: Element, x: Element): Element = {
     e below x
@@ -89,16 +110,15 @@ abstract class Element {
   }
 
   def multiplyOn(on: (Element, Element) => Element)(x: Int): Element = {
-    var i = 0
     x match {
       case 0 => {
         nothing
       }
       case _ => {
-        var e: Element = this
+        var e: Element = nothing
         var i = 0
-        for (i <- 2 to x) {
-          e = on(e, this)
+        for (i <- 1 to x) {
+          e = on(this, e)
         }
         e
       }
@@ -159,10 +179,10 @@ abstract class Element {
   }
 
   def besideIt(x: Element, y: Element): Element = {
-    (x,y) match {
-      case (_,Element.nothing) => x
-      case (Element.nothing,_) => y
-      case (_,_) => x besideRight y
+    (x, y) match {
+      case (_, Element.nothing) => x
+      case (Element.nothing, _) => y
+      case (_, _) => x besideRight y
     }
   }
 
@@ -235,12 +255,16 @@ abstract class Element {
     e
   }
 
-  def horizontal(line: String, e : Element) = join(upsideDown,aboveIt)(line,e)
-  def vertical(line: String, e : Element) = join(leftToRight,belowIt)(line,e)
-  def at90(line: String, e : Element) = join(rotateClockwise45,besideIt)(line,e)
+  def horizontal(line: String, e: Element) = join(upsideDown, aboveIt)(line, e)
+
+  def vertical(line: String, e: Element) = join(leftToRight, belowIt)(line, e)
+
+  def at90(line: String, e: Element) = join(rotateClockwise45, besideIt)(line, e)
 
   def mirrorH() = mirror(horizontal)
+
   def mirrorV() = mirror(vertical)
+
   def mirror45() = mirror(at90)
 
   def ^(that: Element): Element = {

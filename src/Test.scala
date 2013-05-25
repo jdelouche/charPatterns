@@ -44,8 +44,11 @@ object Test extends App {
   println(zigzagVertical.mirror45() v
     (zigzagVertical >>
       fourRabbits >>
-      fourRabbits >>
+      ~fourRabbits >>
       (zigzagVertical.padLeftWith(zigzagVertical.mirror45.width - zigzagVertical.width - 2 * fourRabbits.width))) v
     zigzagVertical.mirror45())
+  val times = 3
+  println(rabbit xh times)
+  println(rabbit xv times)
 
 }

@@ -15,11 +15,13 @@ object TestCollections extends App {
 
   val mySet = contents.toSet
 
-  val v = Vector(1,2,3)
+  val v = Vector(1,2,3,10)
   val m = contents.map ( x => x.length).max
 
   println(">>")
   println(m)
   println("--")
+
+  println(v.reduceLeft(_ + _))
 
 }
