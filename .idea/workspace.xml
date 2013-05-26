@@ -11,7 +11,7 @@
     <file path="/ArrayElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368707353315" ignored="false" />
     <file path="/LineElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368708186412" ignored="false" />
     <file path="/UniformElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368709634519" ignored="false" />
-    <file path="/a.dummy" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369513745218" ignored="false" />
+    <file path="/a.dummy" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369587814391" ignored="false" />
     <file path="/Spiral.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368978400822" ignored="false" />
     <file path="/Square.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368996625954" ignored="false" />
     <file path="/Characters.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369495749696" ignored="false" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="Element.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Element.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="21" selection-start="6429" selection-end="6429" vertical-scroll-proportion="10.584139">
+            <state line="165" column="51" selection-start="3542" selection-end="3549" vertical-scroll-proportion="0.9922631">
               <folding />
             </state>
           </provider>
@@ -707,7 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Element.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="21" selection-start="6429" selection-end="6429" vertical-scroll-proportion="10.584139">
+        <state line="165" column="51" selection-start="3542" selection-end="3549" vertical-scroll-proportion="0.9922631">
           <folding />
         </state>
       </provider>

@@ -37,7 +37,7 @@ abstract class Element {
     newContents.reduceLeft(_ above _)
   }
 
-  def composition(where: (Element, Element) => Element)(that: Element): Element = {
+  def put(where: (Element, Element) => Element)(that: Element): Element = {
 
     (this, that) match {
       case (_, Element.nothing) => this
@@ -63,13 +63,13 @@ abstract class Element {
     create(for ((line1, line2) <- y.contents zip x.contents) yield line1 + line2)
   }
 
-  def above(that: Element): Element = composition(onTop)(that)
+  def above(that: Element): Element = put(onTop)(that)
 
-  def below(that: Element): Element = composition(onBottom)(that)
+  def below(that: Element): Element = put(onBottom)(that)
 
-  def besideLeft(that: Element): Element = composition(onLeft)(that)
+  def besideLeft(that: Element): Element = put(onLeft)(that)
 
-  def besideRight(that: Element): Element = composition(onRight)(that)
+  def besideRight(that: Element): Element = put(onRight)(that)
 
   def vertical(e: Element, x: Element): Element = {
     e below x
