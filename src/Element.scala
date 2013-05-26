@@ -37,69 +37,39 @@ abstract class Element {
     newContents.reduceLeft(_ above _)
   }
 
-  def verticalPut(where: (List[String], List[String]) => List[String])(that: Element): Element = {
+  def composition(where: (Element, Element) => Element)(that: Element): Element = {
 
     (this, that) match {
       case (_, Element.nothing) => this
       case (Element.nothing, _) => that
-      case (_, _) => create(where(that.contents, this.contents))
+      case (_, _) => where(that, this)
     }
 
   }
 
-  def onTop(x: List[String], y: List[String]): List[String] = {
-    y ++ x
+  def onTop(x: Element, y: Element): Element = {
+    create(y.contents ++ x.contents)
   }
 
-  def onBottom(x: List[String], y: List[String]): List[String] = {
-    x ++ y
+  def onBottom(x: Element, y: Element): Element = {
+    create(x.contents ++ y.contents)
   }
 
-  def above(that: Element): Element = {
-    (this, that) match {
-      case (_, Element.nothing) => this
-      case (Element.nothing, _) => that
-      case (_, _) => verticalPut(onTop)(that)
-    }
-
+  def onLeft(x: Element, y: Element): Element = {
+    create(for ((line1, line2) <- x.contents zip y.contents) yield line1 + line2)
   }
 
-  def below(that: Element): Element = {
-    (this, that) match {
-      case (_, Element.nothing) => this
-      case (Element.nothing, _) => that
-      case (_, _) => verticalPut(onBottom)(that)
-    }
+  def onRight(x: Element, y: Element): Element = {
+    create(for ((line1, line2) <- y.contents zip x.contents) yield line1 + line2)
   }
 
-  def horizontalPut(where: (List[String], List[String]) => List[(String, String)])(that: Element): Element = {
-    create(for ((line1, line2) <- where(that.contents, this.contents)) yield line1 + line2)
-  }
+  def above(that: Element): Element = composition(onTop)(that)
 
-  def onLeft(x: List[String], y: List[String]): List[(String, String)] = {
-    x zip y
-  }
+  def below(that: Element): Element = composition(onBottom)(that)
 
-  def onRight(x: List[String], y: List[String]): List[(String, String)] = {
-    y zip x
-  }
+  def besideLeft(that: Element): Element = composition(onLeft)(that)
 
-  def besideLeft(that: Element): Element = {
-    (this, that) match {
-      case (_, Element.nothing) => this
-      case (Element.nothing, _) => that
-      case (_, _) => horizontalPut(onLeft)(that)
-    }
-  }
-
-
-  def besideRight(that: Element): Element = {
-    (this, that) match {
-      case (_, Element.nothing) => this
-      case (Element.nothing, _) => that
-      case (_, _) => horizontalPut(onRight)(that)
-    }
-  }
+  def besideRight(that: Element): Element = composition(onRight)(that)
 
   def vertical(e: Element, x: Element): Element = {
     e below x
@@ -179,11 +149,7 @@ abstract class Element {
   }
 
   def besideIt(x: Element, y: Element): Element = {
-    (x, y) match {
-      case (_, Element.nothing) => x
-      case (Element.nothing, _) => y
-      case (_, _) => x besideRight y
-    }
+    x besideRight y
   }
 
   def padHorizontal(where: (Element, Element) => Element)(h: Int) = {
