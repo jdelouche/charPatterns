@@ -14,6 +14,7 @@ object Characters {
   val space = create(" ")
   val horizontalRight = create("--")
   val horizontal = create("-")
+  val horizontalLong = create("_")
   val horizontalLeft = create("--")
   val verticalDown = create("|")
   val verticalUp = create("|")

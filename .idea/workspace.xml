@@ -5,8 +5,8 @@
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/HeloWorld.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368703707469" ignored="false" />
-    <file path="/Element.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369587662751" ignored="false" />
-    <file path="/Test.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369515365029" ignored="false" />
+    <file path="/Element.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380830616428" ignored="false" />
+    <file path="/Test.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381509841515" ignored="false" />
     <file path="/Scala Console" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369044491529" ignored="false" />
     <file path="/ArrayElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368707353315" ignored="false" />
     <file path="/LineElement.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368708186412" ignored="false" />
@@ -14,12 +14,37 @@
     <file path="/a.dummy" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369587814391" ignored="false" />
     <file path="/Spiral.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368978400822" ignored="false" />
     <file path="/Square.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368996625954" ignored="false" />
-    <file path="/Characters.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369495749696" ignored="false" />
-    <file path="/fragment.java" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369056797258" ignored="false" />
+    <file path="/Characters.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380830586684" ignored="false" />
+    <file path="/fragment.java" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371586390879" ignored="false" />
     <file path="/Diagonal.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369056068835" ignored="false" />
     <file path="/TestCaseClass.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369047979181" ignored="false" />
-    <file path="/Rabbit.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369245396765" ignored="false" />
+    <file path="/Rabbit.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369925178394" ignored="false" />
     <file path="/TestCollections.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1369514399398" ignored="false" />
+    <file path="/A.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371750820322" ignored="false" />
+    <file path="/B.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371676569086" ignored="false" />
+    <file path="/C.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371750171922" ignored="false" />
+    <file path="/D.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371749932787" ignored="false" />
+    <file path="/E.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371751999160" ignored="false" />
+    <file path="/G.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371751939507" ignored="false" />
+    <file path="/H.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371752232226" ignored="false" />
+    <file path="/I.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371752510374" ignored="false" />
+    <file path="/J.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371758464965" ignored="false" />
+    <file path="/K.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371759093043" ignored="false" />
+    <file path="/M.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371759396137" ignored="false" />
+    <file path="/N.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371760026016" ignored="false" />
+    <file path="/O.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371760339385" ignored="false" />
+    <file path="/P.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371760620936" ignored="false" />
+    <file path="/Q.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1371760741933" ignored="false" />
+    <file path="/ReadFile.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1372107231331" ignored="false" />
+    <file path="/WriteFile.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1372107315955" ignored="false" />
+    <file path="/ServerSide.java" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1372107653739" ignored="false" />
+    <file path="/R.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1379960992983" ignored="false" />
+    <file path="/S.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380047288866" ignored="false" />
+    <file path="/space.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380049386439" ignored="false" />
+    <file path="/T.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380049969740" ignored="false" />
+    <file path="/U.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380050064310" ignored="false" />
+    <file path="/Dummy.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381509684779" ignored="false" />
+    <file path="/X.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380824567453" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +59,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -42,6 +66,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -58,6 +83,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -69,6 +95,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -78,20 +105,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Element.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Element.scala">
+      <file leaf-file-name="Test.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="51" selection-start="3542" selection-end="3549" vertical-scroll-proportion="0.9922631">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinearSeqOptimized.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/scala/scala-2.10.1/src/scala-library-src.jar!/scala/collection/LinearSeqOptimized.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="6" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="88" column="15" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.7090695">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#158#177#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,16 +120,61 @@
       <file leaf-file-name="TestCollections.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestCollections.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+            <state line="27" column="3" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.scala">
+      <file leaf-file-name="O.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/O.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="15" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0">
+            <state line="3" column="4" selection-start="8" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aLower.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aLower.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="11" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bLower.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bLower.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Element.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="293" column="17" selection-start="6886" selection-end="6894" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Source.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/scala/scala-2.10.1/src/scala-library-src.jar!/scala/io/Source.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="19" selection-start="1835" selection-end="1840" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/File.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="11" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,52 +183,16 @@
       <file leaf-file-name="Characters.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Characters.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="15" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+            <state line="16" column="32" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Square.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Square.scala">
+      <file leaf-file-name="space.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/space.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diagonal.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Diagonal.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="56" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rabbit.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rabbit.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spiral.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Spiral.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Directions.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Directions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,24 +205,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/HeloWorld.scala" />
-        <option value="$PROJECT_DIR$/src/ArrayElement.scala" />
-        <option value="$PROJECT_DIR$/src/LineElement.scala" />
-        <option value="$PROJECT_DIR$/src/UniformElement.scala" />
-        <option value="$PROJECT_DIR$/src/elem.scala" />
-        <option value="$PROJECT_DIR$/src/Directions.scala" />
-        <option value="$PROJECT_DIR$/src/Spiral.scala" />
-        <option value="$PROJECT_DIR$/src/Square.scala" />
-        <option value="$PROJECT_DIR$/src/TestCaseClass.scala" />
-        <option value="$PROJECT_DIR$/src/Diagonal.scala" />
-        <option value="$PROJECT_DIR$/src/Rabbit.scala" />
+        <option value="$PROJECT_DIR$/src/WriteFile.scala" />
+        <option value="$PROJECT_DIR$/src/ServerSide.java" />
+        <option value="$PROJECT_DIR$/R.txt" />
+        <option value="$PROJECT_DIR$/S.txt" />
+        <option value="$PROJECT_DIR$/L.txt" />
+        <option value="$PROJECT_DIR$/space.txt" />
+        <option value="$PROJECT_DIR$/T.txt" />
+        <option value="$PROJECT_DIR$/U.txt" />
+        <option value="$PROJECT_DIR$/V.txt" />
+        <option value="$PROJECT_DIR$/W.txt" />
+        <option value="$PROJECT_DIR$/X.txt" />
         <option value="$PROJECT_DIR$/src/Characters.scala" />
-        <option value="$PROJECT_DIR$/src/TestCollections.scala" />
-        <option value="$PROJECT_DIR$/src/Test.scala" />
         <option value="$PROJECT_DIR$/src/Element.scala" />
+        <option value="$PROJECT_DIR$/aLower.txt" />
+        <option value="$PROJECT_DIR$/bLower.txt" />
+        <option value="$PROJECT_DIR$/src/Test.scala" />
       </list>
     </option>
   </component>
@@ -202,7 +241,7 @@
     <option name="width" value="1630" />
     <option name="height" value="1010" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -228,6 +267,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -263,7 +303,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,27 +310,32 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/V.txt" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Test">
-    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+    <configuration default="false" name="TestCaseClass.scala" type="ScalaScriptRunConfiguration" factoryName="Scala Script" temporary="true">
       <module name="untitled1" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="consoleArgs" value="" />
+      <setting name="path" value="$PROJECT_DIR$/src/TestCaseClass.scala" />
+      <setting name="vmparams" value="" />
+      <setting name="consoleargs" value="" />
+      <setting name="params" value="" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -316,17 +360,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestCaseClass.scala" type="ScalaScriptRunConfiguration" factoryName="Scala Script" temporary="true">
-      <module name="untitled1" />
-      <setting name="path" value="$PROJECT_DIR$/src/TestCaseClass.scala" />
-      <setting name="vmparams" value="" />
-      <setting name="consoleargs" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -362,6 +395,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="readFile" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="readFile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="charPatterns" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -371,7 +420,7 @@
     <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
       <module name="" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="consoleArgs" value="" />
+      <setting name="consoleArgs" value="-usejavacp" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <method />
     </configuration>
@@ -467,19 +516,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="0" class="java.lang.String" itemvalue="Scala Script.TestCaseClass.scala" />
       <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="2" class="java.lang.String" itemvalue="Scala Script.TestCaseClass.scala" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Run" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestCollections" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Run" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestCollections" />
+      <item index="4" class="java.lang.String" itemvalue="Application.readFile" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestCollections" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Run" />
-        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="4" class="java.lang.String" itemvalue="Scala Script.TestCaseClass.scala" />
+        <item index="1" class="java.lang.String" itemvalue="Application.readFile" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestCollections" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Run" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -488,7 +536,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -498,7 +546,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -516,7 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="22" width="1630" height="1010" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,16 +573,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.24606742" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1505508" sideWeight="0.17857143" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15593435" sideWeight="0.6123595" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38764045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15025252" sideWeight="0.61348313" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38651684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -566,7 +613,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -576,6 +623,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -589,6 +640,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -600,115 +652,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Diagonal.scala">
+    <entry file="file://$PROJECT_DIR$/U.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="56" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rabbit.scala">
+    <entry file="file://$PROJECT_DIR$/space.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Spiral.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Directions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Element.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="12" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="26" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Spiral.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Directions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Square.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Characters.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+        <state line="16" column="32" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rabbit.scala">
+    <entry file="jar://$USER_HOME$/scala/scala-2.10.1/src/scala-library-src.jar!/scala/io/Source.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="52" column="19" selection-start="1835" selection-end="1840" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diagonal.scala">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/File.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="56" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCollections.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/scala/scala-2.10.1/src/scala-library-src.jar!/scala/collection/LinearSeqOptimized.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="6" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="15" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0">
+        <state line="22" column="11" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Element.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="51" selection-start="3542" selection-end="3549" vertical-scroll-proportion="0.9922631">
+        <state line="293" column="17" selection-start="6886" selection-end="6894" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/O.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="8" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aLower.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLower.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCollections.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="15" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.7090695">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#158#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

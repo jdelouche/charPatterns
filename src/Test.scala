@@ -6,6 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
+import java.io.File
+
 import Element._
 
 object Test extends App {
@@ -48,7 +50,46 @@ object Test extends App {
       (zigzagVertical.padLeftWith(zigzagVertical.mirror45.width - zigzagVertical.width - 2 * fourRabbits.width))) v
     zigzagVertical.mirror45())
   val times = 3
-  println(rabbit xh times)
-  println(rabbit xv times)
+  //println(rabbit xh times)
+  //println(rabbit xv times)
+  val vbar = create(' ', rabbit.width, rabbit.height)
+  println(rabbit >> rabbit.erase >> vbar)
+  println(~rabbit)
 
+  println(createFromFile("Rabbit.txt"))
+
+  def createBigString(s: String): Element = {
+    var ch: Element = nothing
+    s.foreach {
+      letter: Char =>
+        letter match {
+          case ' ' => {
+            ch = ch >> createFromFile("space.txt")
+          }
+          case x => {
+            def fileName(x: Char): String = {
+              if (x.isLetter) {
+                if (x.isLower) {
+                  x + "Lower.txt"
+                } else {
+                  x + ".txt"
+                }
+              } else {
+                x + ".txt"
+              }
+            }
+            ch = ch >> createFromFile(fileName(x))
+          }
+        }
+    }
+
+    ch
+  }
+
+  private val Pierre: Element = createBigString("PIERRE").mirrorV().mirror45()
+  private val jean: Element = createBigString("JEAN")
+  private val delouche: Element = createBigString("DELOUCHE")
+  println(jean.padBottomWith(Pierre) >> Pierre >> delouche.padTopWith(Pierre))
+  println(createBigString("abABCDEFGHIJKLMNOPQRSTUVWX"))
+  println(!createBigString("b"))
 }

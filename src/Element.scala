@@ -1,4 +1,5 @@
-import scala.Array
+import java.io.File
+import scala.io.Source
 
 /**
  * Created with IntelliJ IDEA.
@@ -181,6 +182,7 @@ abstract class Element {
   def rotateClockwise45(x: Element, m: Element): Element = {
     x match {
       case Characters.horizontal => m v (Characters.space >> Characters.vertical)
+      case Characters.horizontalLong => m v (Characters.vertical >> Characters.space)
       case Characters.vertical => m v (Characters.horizontal xh 2)
       case Characters.space => m v (Characters.space xh 2)
       case Characters.arrowUp => m v Characters.space >> Characters.arrowRight
@@ -233,54 +235,44 @@ abstract class Element {
 
   def mirror45() = mirror(at90)
 
-  def ^(that: Element): Element = {
-    above(that)
-  }
+  def ^(that: Element): Element = above(that)
 
-  def v(that: Element): Element = {
-    below(that)
-  }
 
-  def >>(that: Element): Element = {
-    besideRight(that)
-  }
+  def v(that: Element): Element = below(that)
 
-  def <<(that: Element): Element = {
-    besideLeft(that)
-  }
 
-  def xh(x: Int): Element = {
-    hMultiplyBy(x)
-  }
+  def >>(that: Element): Element = besideRight(that)
 
-  def xv(x: Int): Element = {
-    vMultiplyBy(x)
-  }
 
-  def T(x: Element): Element = {
-    padTopWith(x)
-  }
+  def <<(that: Element): Element = besideLeft(that)
 
-  def B(x: Element): Element = {
-    padBottomWith(x)
-  }
 
-  def R(x: Element): Element = {
-    padRightWith(x)
-  }
+  def xh(x: Int): Element = hMultiplyBy(x)
 
-  def L(x: Element): Element = {
-    padLeftWith(x)
-  }
 
-  def unary_~(): Element = {
-    this.mirrorH()
-  }
+  def xv(x: Int): Element = vMultiplyBy(x)
 
-  def unary_!(): Element = {
-    this.mirrorV()
-  }
 
+  def T(x: Element): Element = padTopWith(x)
+
+
+  def B(x: Element): Element = padBottomWith(x)
+
+
+  def R(x: Element): Element = padRightWith(x)
+
+
+  def L(x: Element): Element = padLeftWith(x)
+
+
+  def unary_~(): Element = this.mirrorH()
+
+
+  def unary_!(): Element = this.mirrorV()
+
+  def erase(): Element = {
+    create('\010',width,height)
+  }
 }
 
 object Element {
@@ -296,6 +288,14 @@ object Element {
   def create(s: String) = new LineElement(s)
 
   def create(ch: Char, w: Int, h: Int) = new UniformElement(ch, w, h)
+
+  def createFromFile(f: String) = {
+    var elem: Element = nothing
+    Source.fromFile(f).getLines().foreach{ line: String =>
+      elem = create(line) below elem
+    }
+    elem.padRightWith(elem.width)
+  }
 
   val nothing = create("")
 

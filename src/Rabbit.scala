@@ -12,13 +12,13 @@ class Rabbit {
   def rabbit = {
     var e: Element =
       create("^   ^") ^
-      create("||  ||") ^
-      create("|---|| -----") ^
-      create("|    |/     \\") ^
-      create("|° ° |       |") ^
-      create("| ^  |       |") ^
-      create("| O  |       |O") ^
-      create("\\----/oo---oo")
+        create("||  ||") ^
+        create("|---|| -----") ^
+        create("|    |/     \\") ^
+        create("|o o |       |") ^
+        create("| ^  |       |") ^
+        create("| 0  |       |O") ^
+        create("\\----/oo---oo")
     e.padRightWith(15)
   }
 }
