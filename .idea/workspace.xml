@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vLower.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wLower.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H.txt" afterPath="$PROJECT_DIR$/H.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/I.txt" afterPath="$PROJECT_DIR$/I.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/J.txt" afterPath="$PROJECT_DIR$/J.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.scala" afterPath="$PROJECT_DIR$/src/Test.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aLower.txt" afterPath="$PROJECT_DIR$/aLower.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bLower.txt" afterPath="$PROJECT_DIR$/bLower.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" name="Default" comment="" />
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/HeloWorld.scala" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1368703707469" ignored="false" />
@@ -72,13 +43,14 @@
     <file path="/space.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380049386439" ignored="false" />
     <file path="/T.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380049969740" ignored="false" />
     <file path="/U.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380050064310" ignored="false" />
-    <file path="/Dummy.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1384603650469" ignored="false" />
+    <file path="/Dummy.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1384603951795" ignored="false" />
     <file path="/X.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1380824567453" ignored="false" />
     <file path="/dLower.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381510991957" ignored="false" />
     <file path="/cLower.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381511157239" ignored="false" />
     <file path="/eLower.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381512550350" ignored="false" />
     <file path="/fLower.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381512711414" ignored="false" />
     <file path="/gLower.txt" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1381513177641" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="9d1b2765-bfba-45d1-87cb-60ec1d93ca7f" time="1384604077873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +123,7 @@
       <file leaf-file-name="eLower.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eLower.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="76" selection-end="76" vertical-scroll-proportion="0.17592593">
+            <state line="10" column="11" selection-start="92" selection-end="92" vertical-scroll-proportion="0.22041763">
               <folding />
             </state>
           </provider>
@@ -536,11 +508,16 @@
       <created>1368703281540</created>
       <updated>1368703281540</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding more characters">
+      <created>1384603969007</created>
+      <updated>1384603969007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="22" width="1629" height="1010" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -555,7 +532,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1505508" sideWeight="0.17857143" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14971574" sideWeight="0.67264575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14971574" sideWeight="0.67264575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38651684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,7 +683,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eLower.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="76" selection-end="76" vertical-scroll-proportion="0.17592593">
+        <state line="10" column="11" selection-start="92" selection-end="92" vertical-scroll-proportion="0.22041763">
           <folding />
         </state>
       </provider>
