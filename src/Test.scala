@@ -87,9 +87,11 @@ object Test extends App {
   }
 
   private val Pierre: Element = createBigString("PIERRE").mirrorV().mirror45()
-  private val jean: Element = createBigString("JEAN")
+  private val Jean: Element = createBigString("JEAN")
   private val delouche: Element = createBigString("DELOUCHE")
-  println(jean.padBottomWith(Pierre) >> Pierre >> delouche.padTopWith(Pierre))
-  println(createBigString("abABCDEFGHIJKLMNOPQRSTUVWX"))
-  println(!createBigString("b"))
+  println(Jean.padBottomWith(Pierre) >> Pierre >> delouche.padTopWith(Pierre))
+  private val g: Element = createBigString("g")
+  println(createBigString("ABCDEFGHIJKLMNOPQRSTUVWX"))
+  println(createBigString("abcdefghijklmnopqrstuvwx"))
+  println(~createBigString("n"))
 }
