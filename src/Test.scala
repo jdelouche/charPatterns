@@ -95,7 +95,7 @@ object Test extends App {
   private val delouche: Element = createBigString("DELOUCHE")
   println(Jean.padBottomWith(Pierre) >> Pierre >> delouche.padTopWith(Pierre))
   private val g: Element = createBigString("g")
-  println(createBigString("ABCDEFGHIJKLMNOPQRSTUVWX"))
-  println(createBigString("abcdefghijklmnopqrstuvwx"))
-  println(~createBigString("n"))
+  println(createBigString("ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+  println(createBigString("abcdefghijklmnopqrstuvwxyz"))
+  println(createBigString("Good Morning"))
 }
